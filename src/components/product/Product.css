@@ -1,0 +1,8 @@
+.software:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.software:nth-child(6) {
+  margin-bottom: 0;
+}
