@@ -1,8 +1,21 @@
-.software:nth-child(even) {
+/* .software:nth-child(even) {
   display: flex;
   flex-direction: row-reverse;
-}
+} */
 
 .software:nth-child(6) {
   margin-bottom: 0;
 }
+
+@media only screen and (min-width: 850px) {
+  .software:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+/* @media only screen and (min-width: 1024px) {
+  .software:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+} */

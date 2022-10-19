@@ -2,7 +2,7 @@ import React from "react";
 
 function Note() {
   return (
-    <div className="notepad absolute w-[189px] h-[175px] bg-white rounded-b-[20px] top-[0] left-[0] px-2 py-4">
+    <div className="notepad absolute w-[129px] h-[135px] bg-white rounded-b-[20px] top-[0] left-[0] px-2 py-4">
       <div className="note w-8 h-2 bg-[#D9D9D9] rounded-md mb-2"></div>
       <div className="note w-28 h-2 bg-[#D9D9D9] rounded-md mb-2"></div>
       <div className="flex items-center gap-2">

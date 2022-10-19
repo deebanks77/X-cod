@@ -10,12 +10,17 @@ import "aos/dist/aos.css";
 
 function App() {
   useEffect(() => {
-    AOS.init({ offset: 200, duration: 600, easing: "ease-in-sine" });
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: "ease-in-sine",
+      once: true,
+    });
     AOS.refresh();
   }, []);
 
   return (
-    <div className="bg-[#EEF2FF] w-full min-h-[100%] relative">
+    <div className="bg-[#EEF2FF] w-full min-h-[100%] relative overflow-hidden">
       <Header />
       <Hero />
       <Product />

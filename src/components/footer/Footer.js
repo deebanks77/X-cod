@@ -7,8 +7,8 @@ import AllInclusiveIcon from "@mui/icons-material/AllInclusive";
 
 function Footer() {
   return (
-    <div className="mt-[172px] flex items-center border-t border-t-[#909090] h-[400px] w-full">
-      <div className="w-[1293px] h-[246px] flex items-start mx-auto">
+    <div className="mt-[172px] flex items-center justify-center border-t border-t-[#909090] w-full p-5">
+      <div className="w-full max-w-[1293px] flex flex-wrap gap-5  mobile:justify-between desktop:flex-nowrap desktop:justify-center  items-start mx-auto">
         <div className="basis-[30%]">
           <div className="w-[91px] h-[34px] mb-[16px]">
             <img
@@ -23,59 +23,66 @@ function Footer() {
             apps built to help you simplify your video marketing.
           </p>
           <div>
-            <LinkedInIcon className="text-[#4361EE]" />
-            <FacebookIcon className="text-[#4361EE]" />
-            <TwitterIcon className="text-[#4361EE]" />
-            <AllInclusiveIcon className="text-[#4361EE]" />
+            <LinkedInIcon className="text-[#4361EE] cursor-pointer hover:opacity-80" />
+            <FacebookIcon className="text-[#4361EE] cursor-pointer hover:opacity-80" />
+            <TwitterIcon className="text-[#4361EE] cursor-pointer hover:opacity-80" />
+            <AllInclusiveIcon className="text-[#4361EE] cursor-pointer hover:opacity-80" />
           </div>
         </div>
-        <div className="basis-[15%] font-[inter]">
-          <h4 className="font-[inter] font-[600] text-[23px] mb-[26px]">
-            Company
-          </h4>
-          <p className="font-[400] text-[17px] text-[#1D2132] mb-[20px]">
-            About Us
-          </p>
-          <p className="font-[400] text-[17px] text-[#1D2132] mb-[20px]">
-            Careers
-          </p>
-          <p className="font-[400] text-[17px] text-[#1D2132] mb-[20px]">
-            Blog
-          </p>
+
+        <div className="flex gap-7 tablet:gap-16 basis-[30%]">
+          <div className=" font-[inter]">
+            <h4 className="font-[inter] font-[600] mobile:text-[17px] tablet:text-[23px] mobile:mb-[5px] tablet:mb-[26px] cursor-pointer hover:opacity-80">
+              Company
+            </h4>
+            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
+              About Us
+            </p>
+            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
+              Careers
+            </p>
+            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
+              Blog
+            </p>
+          </div>
+
+          <div className="font-[inter]">
+            <h4 className="font-[600] mobile:text-[17px] tablet:text-[23px] mobile:mb-[5px] tablet:mb-[26px] cursor-pointer hover:opacity-80">
+              Product
+            </h4>
+            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] font-[inter] cursor-pointer hover:opacity-80">
+              QR Verse
+            </p>
+            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
+              AIWA
+            </p>
+            <p className="font-[400] mobile:text-[14px] tablet:text-[17px]] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
+              Introverse
+            </p>
+            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
+              Stori
+            </p>
+          </div>
         </div>
-        <div className="basis-[15%] font-[inter]">
-          <h4 className="font-[600] text-[23px] mb-[26px]">Product</h4>
-          <p className="font-[400] text-[17px] text-[#1D2132] mb-[20px] font-[inter]">
-            QR Verse
-          </p>
-          <p className="font-[400] text-[17px] text-[#1D2132] mb-[20px]">
-            AIWA
-          </p>
-          <p className="font-[400] text-[17px] text-[#1D2132] mb-[20px]">
-            Introverse
-          </p>
-          <p className="font-[400] text-[17px] text-[#1D2132] mb-[20px]">
-            Stori
-          </p>
-        </div>
-        <div className="basis-[40%]">
-          <h4 className="font-[inter] font-[600] text-[23px] mb-[26px]">
+
+        <div className="basis-[38%]">
+          <h4 className="font-[inter] font-[600] mobile::text-[17px] tablet:text-[23px] mobile:mb-[16px] tablet:mb-[26px]">
             Join Our Newsletter
           </h4>
 
-          <form className="w-[435px] h-[58px] mb-[38px]">
+          <form className="mobile:w-[280px] mobile:h-[40px] tablet:w-[435px] tablet:h-[58px] mb-[38px]">
             <input
               type="email"
               placeholder="Your email address"
               required
-              className="w-[268px] h-full px-3"
+              className="mobile:w-[190px] tablet:w-[268px] h-full px-3 outline-none"
             />
-            <button className="w-[167px] h-full bg-[#4361EE] text-white text-[18px] font-[poppins] border-none ">
+            <button className=" tablet:w-[167px] p-1 h-full bg-[#4361EE] text-white mobile:text-[16px] tablet:text-[18px] font-[poppins] border-none ">
               Subscribe
             </button>
           </form>
 
-          <p className="w-[366px]">
+          <p className="max-w-[366px]">
             * Will send you weekly updates for your better finance management.
           </p>
         </div>

@@ -2,6 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    screens: {
+      mobile: "320px",
+      // => @media (min-width: 320px) { ... }
+      mobile2: "500px",
+      tablet: "640px",
+      bigTablet: "820px",
+      laptop: "1024px",
+      desktop: "1350px",
+    },
     extend: {
       animation: {
         drop: "drop 3s linear 1",
