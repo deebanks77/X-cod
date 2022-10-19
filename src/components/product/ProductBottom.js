@@ -23,7 +23,7 @@ function ProductBottom(props) {
 
       <div
         data-aos="zoom-in"
-        className="flex flex-col items-start justify-center mt-[10px] mobile:w-[380px] mobile:h-[300px] desktop:w-[500px] desktop:h-[450px]  w-[584px] h-[554px] p-3"
+        className="flex flex-col items-start justify-center mt-[10px] mobile:w-[380px] mobile:h-[300px] desktop:w-[500px] desktop:h-[450px]  w-[584px] h-[554px] p-5"
       >
         <h4 className="font-[Inter] font-bold mobile:text-[30px] desktop:text-[43px] mb-30px">
           {header}

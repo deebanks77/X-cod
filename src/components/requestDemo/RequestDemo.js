@@ -8,7 +8,7 @@ function RequestDemo() {
       <h2
         data-aos="zoom-in"
         data-aos-duration="1000"
-        className="mobile:mt-[80px] desktop:mt-[166px] mb-[36px] font-bold font-[poppins] mobile:text-[24px] tablet:text-[28px] desktop:text-[38px] text-center"
+        className="mobile:mt-[80px] mb-[36px] font-bold font-[poppins] mobile:text-[24px] tablet:text-[28px] desktop:text-[38px] text-center"
       >
         REQUEST A DEMO
       </h2>

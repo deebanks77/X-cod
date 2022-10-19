@@ -1,11 +1,5 @@
-/* .feedback {
-  background-image: repeating-linear-gradient(
-    to right,
-    transparent 20px,
-    white 4%
-  );
-} */
-
-/* .flexItem {
-  opacity: 0.5;
-} */
+@media only screen and (min-width: 760px) {
+  .card-mobile {
+    display: none;
+  }
+}

@@ -55,7 +55,7 @@ function Product() {
   return (
     <div>
       <div className="top__section bg-gradient-to-r from-[#5390D9] to-[#4361EE] mobile:rounded-none desktop:rounded-t-[73px] mobile:p-[10px] laptop:p-[40px] desktop:p-[50px] mobile:mt-[20px] laptop:mt-[0]">
-        <div className="flex mobile:flex-col bigTablet:flex-row items-center mobile:justify-center bigTablet:justify-between mobile:flex-wrap mobile:gap-2 gap-40 max-w-[1200px] mx-auto">
+        <div className="flex mobile:flex-row bigTablet:flex-row items-center mobile:justify-center bigTablet:justify-between mobile:flex-wrap mobile:gap-2 gap-40 max-w-[1200px] mx-auto">
           {productTop.map((item, index) => (
             <ProductTop
               key={index}
