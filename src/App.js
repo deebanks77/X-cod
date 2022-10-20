@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Feedback from "./components/feedback/Feedback";
 import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
+import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Product from "./components/product/Product";
 import RequestDemo from "./components/requestDemo/RequestDemo";
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="bg-[#EEF2FF] w-full min-h-[100%] relative overflow-hidden">
-      <Header />
+      <Navbar />
       <Hero />
       <Product />
       <Feedback />

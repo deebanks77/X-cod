@@ -1,41 +1,33 @@
 import React from "react";
 import "./Product.css";
-import ELearningIcon from "../../images/E-Learning.png";
-import PlaystoreIcon from "../../images/Playstore.png";
-import UserIcon from "../../images/UserEngagement.png";
-import BuggerIcon from "../../images/Bugger.png";
-import VectorIcon from "../../images/Vector2.png";
-import MarketIcon from "../../images/Marketing.png";
-import Screen1 from "../../images/Screen1.png";
-import Screen2 from "../../images/Screen2.png";
-import arrowRight from "../../images/arrowRight.png";
+import images from "../../asset/assets";
 import ProductTop from "./ProductTop";
 import ProductCenter from "./ProductCenter";
 import ProductBottom from "./ProductBottom";
 
 function Product() {
   const productTop = [
-    { icon: UserIcon, type: "USER", num: "35,000" },
-    { icon: ELearningIcon, type: "CREATED", num: "242,110" },
-    { icon: PlaystoreIcon, type: "PRODUCT", num: "14" },
+    { icon: images.UserIcon, type: "USER", num: "35,000" },
+    { icon: images.ELearningIcon, type: "CREATED", num: "242,110" },
+    { icon: images.PlaystoreIcon, type: "PRODUCT", num: "14" },
   ];
   const productCenter = [
     {
-      icon: BuggerIcon,
+      icon: images.BuggerIcon,
       title: "Easy to use",
       content:
         "ReelApps are built to be easy to use. No rocket science, no complicated processes and definitely no hours of training. Simply login, choose what you want to do & follow the easy process.",
       border: "#4361EE",
     },
     {
-      icon: VectorIcon,
+      icon: images.VectorIcon,
       title: "Library access ",
       content:
         "Never run out of graphics, videos and music assets to use while creating your videos. With ReelApps Libraries of stock free images, video clips and royalty free music, it has never been this easier.",
       border: "#4CC9F0",
     },
     {
-      icon: MarketIcon,
+      icon: images.MarketIcon,
       title: "Built for marketing",
       content:
         "ReelApps was built by digital marketers, for digital marketers and at our core, we understand your need to save time and yet create something that’s stunning and brings in results",
@@ -44,12 +36,12 @@ function Product() {
   ];
 
   const productBottom = [
-    { image: Screen1, header: "AIWA" },
-    { image: Screen2, header: "QR VERSE" },
-    { image: Screen1, header: "AIWA" },
-    { image: Screen2, header: "QR VERSE" },
-    { image: Screen1, header: "AIWA" },
-    { image: Screen2, header: "QR VERSE" },
+    { image: images.Screen1, header: "AIWA" },
+    { image: images.Screen2, header: "QR VERSE" },
+    { image: images.Screen1, header: "AIWA" },
+    { image: images.Screen2, header: "QR VERSE" },
+    { image: images.Screen1, header: "AIWA" },
+    { image: images.Screen2, header: "QR VERSE" },
   ];
 
   return (

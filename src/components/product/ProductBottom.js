@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import "./Product.css";
-import arrowRight from "../../images/arrowRight.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import images from "../../asset/assets";
 
 function ProductBottom(props) {
   const { image, header } = props;
@@ -39,7 +37,7 @@ function ProductBottom(props) {
           </button>
           <div className="flex items-center justify-center w-[57px] h-[57px] bg-[#4361EE] rounded-[50%]">
             <img
-              src={arrowRight}
+              src={images.arrowRight}
               alt="/"
               className="w-[33pxpx] object-contain"
             />

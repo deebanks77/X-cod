@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "./Header.css";
-import xcodLogo from "../../images/xcodLogo1.png";
+import "./Navbar.css";
+import images from "../../asset/assets";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
-function Header() {
+function Navbar() {
   const [click, setClick] = useState(false);
 
   const handleHamburger = () => {
@@ -19,7 +19,7 @@ function Header() {
     <div className="flex items-center justify-between pt-[31px] px-3  font-[poppins] max-w-[1200px] mx-auto ">
       <div className="w-[128px] h-[50px]">
         <img
-          src={xcodLogo}
+          src={images.xcodLogoText}
           alt="xcod logo"
           className="w-[100%] h-[100%] object-contain"
         />
@@ -61,4 +61,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navbar;

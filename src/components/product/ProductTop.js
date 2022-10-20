@@ -1,15 +1,7 @@
 import React, { useEffect } from "react";
-import UserIcon from "../../images/UserEngagement.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function Top(props) {
   const { type, num, icon } = props;
-
-  // useEffect(() => {
-  //   AOS.init({ duration: 500 });
-  //   AOS.refresh();
-  // });
 
   return (
     <div className="user flex mobile:flex-col bigTablet:flex-row items-center justify-center gap-5 mobile:min-w-[150px] desktop:w-[296px] mobile:min-h-[80px] desktop:h-[121px]">
