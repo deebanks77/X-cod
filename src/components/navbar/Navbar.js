@@ -17,12 +17,15 @@ function Navbar() {
 
   return (
     <div className="flex items-center justify-between pt-[31px] px-3  font-[poppins] max-w-[1200px] mx-auto ">
-      <div className="w-[128px] h-[50px]">
-        <img
-          src={images.xcodLogoText}
-          alt="xcod logo"
-          className="w-[100%] h-[100%] object-contain"
-        />
+      <div className="flex items-center">
+        <div className="w-[55px] h-[49px] ">
+          <img
+            src={images.xcodLogo}
+            alt="xcod logo"
+            className="w-[100%] h-[100%] object-contain"
+          />
+        </div>
+        <p className="text-black font-[700] font-[poppins] text-[28px]">COD</p>
       </div>
 
       <div className="nav mobile:hidden tablet:block">
