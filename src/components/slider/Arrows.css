@@ -1,0 +1,11 @@
+.prev,
+.next {
+  font-size: medium !important;
+}
+
+@media screen and (min-width: 820px) {
+  .prev,
+  .next {
+    font-size: x-large !important;
+  }
+}
