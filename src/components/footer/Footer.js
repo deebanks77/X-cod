@@ -24,7 +24,7 @@ function Footer() {
             is a group of cloud based video creation, optimisation and marketing
             apps built to help you simplify your video marketing.
           </p>
-          <div>
+          <div className="flex items-center gap-2">
             <FaLinkedinIn className="text-[#4361EE] cursor-pointer hover:opacity-80" />
             <FaFacebook className="text-[#4361EE] cursor-pointer hover:opacity-80" />
             <FaTwitter className="text-[#4361EE] cursor-pointer hover:opacity-80" />
