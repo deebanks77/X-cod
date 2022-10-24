@@ -1,9 +1,11 @@
 import React from "react";
 import xcodLogo from "../../images/xcodLogo1.png";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import AllInclusiveIcon from "@mui/icons-material/AllInclusive";
+import {
+  FaTwitter,
+  FaLinkedinIn,
+  FaInfinity,
+  FaFacebook,
+} from "react-icons/fa";
 
 function Footer() {
   return (
@@ -23,10 +25,10 @@ function Footer() {
             apps built to help you simplify your video marketing.
           </p>
           <div>
-            <LinkedInIcon className="text-[#4361EE] cursor-pointer hover:opacity-80" />
-            <FacebookIcon className="text-[#4361EE] cursor-pointer hover:opacity-80" />
-            <TwitterIcon className="text-[#4361EE] cursor-pointer hover:opacity-80" />
-            <AllInclusiveIcon className="text-[#4361EE] cursor-pointer hover:opacity-80" />
+            <FaLinkedinIn className="text-[#4361EE] cursor-pointer hover:opacity-80" />
+            <FaFacebook className="text-[#4361EE] cursor-pointer hover:opacity-80" />
+            <FaTwitter className="text-[#4361EE] cursor-pointer hover:opacity-80" />
+            <FaInfinity className="text-[#4361EE] cursor-pointer hover:opacity-80" />
           </div>
         </div>
 
