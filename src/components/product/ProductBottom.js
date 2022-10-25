@@ -8,7 +8,7 @@ function ProductBottom(props) {
   return (
     <div className="software flex  mobile:flex-col-reverse bigTablet:flex-row laptop:flex-row items-center justify-center mobile:gap-5 laptop:gap-10  gap-20 mobile:w-full laptop:w-[1000px] desktop:w-[1288px]  mx-auto mt-[40px] tablet:mt-[70px] desktop:mt-[100px] mb-[80px] laptop:mb-[156px]">
       <div
-        data-aos="zoom-in"
+        data-aos="fade-in"
         data-aos-easing="ease-in-sine"
         className="mobile:mt-[20px] px-4"
       >
@@ -20,7 +20,7 @@ function ProductBottom(props) {
       </div>
 
       <div
-        data-aos="zoom-in"
+        data-aos="fade-in"
         className="flex flex-col items-start justify-center mt-[10px] bigTablet:w-[380px] mobile:h-[300px] desktop:w-[500px] desktop:h-[450px] p-5"
       >
         <h4 className="font-[Inter] font-bold text-[30px] laptop:text-[35px] desktop:text-[43px] mb-30px">
