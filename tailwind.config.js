@@ -51,11 +51,11 @@ module.exports = {
           "100%": { transform: "translateX(0px)" },
         },
         scale: {
-          "0%": { transform: "scale(0.9)", opacity: 0.1 },
+          "0%": { transform: "scale(0.9)", opacity: 0 },
           "100%": { transform: "scale(1)", opacity: 1 },
         },
         opacity: {
-          "0%": { opacity: 0.1 },
+          "0%": { opacity: 0 },
           "100%": { opacity: 1 },
         },
       },
