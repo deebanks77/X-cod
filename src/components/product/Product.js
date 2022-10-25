@@ -59,7 +59,7 @@ function Product() {
         </div>
       </div>
 
-      <div className="flex items-center flex-wrap justify-evenly gap-[26px] mobile:mt-[40px] tablet:mt-[60px] p-10 desktop:p-20">
+      <div className="flex items-center flex-wrap justify-center gap-[26px] mobile:mt-[40px] tablet:mt-[60px] p-10 desktop:p-20">
         {productCenter.map((item, index) => (
           <ProductCenter
             key={index}

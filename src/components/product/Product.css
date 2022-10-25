@@ -7,7 +7,7 @@
   margin-bottom: 0;
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 820px) {
   .software:nth-child(even) {
     display: flex;
     flex-direction: row-reverse;

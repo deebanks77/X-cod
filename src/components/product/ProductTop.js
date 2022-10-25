@@ -4,7 +4,7 @@ function Top(props) {
   const { type, num, icon } = props;
 
   return (
-    <div className="user flex mobile:flex-col bigTablet:flex-row items-center justify-center gap-5 tablet:min-w-[150px] desktop:w-[296px] mobile:min-h-[80px] desktop:h-[121px]">
+    <div className="user flex mobile:flex-col bigTablet:flex-row items-center justify-center gap-5 tablet:min-w-[150px] desktop:w-[296px] mobile:min-h-[80px] desktop:h-[121px] py-5">
       <div
         data-aos="flip-right"
         className="icon flex items-center mobile:justify-center bg-[#4361EE] mobile:w-[60px] mobile:h-[60px]  laptop:w-[95px] laptop:h-[90px] desktop:w-[101px] desktop:h-[101px] rounded-[50%]"

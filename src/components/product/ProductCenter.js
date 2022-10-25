@@ -5,7 +5,7 @@ function ProductBottom(props) {
 
   return (
     <div
-      data-aos="zoom-in-up"
+      data-aos="zoom-in"
       data-aos-duration="800"
       className={`min-w-[350px] tablet:w-[400px] desktop:w-[350px] min-h-[250px] bg-[#FFFFFF] p-[20px] py-[40px] rounded-[14px] relative`}
     >

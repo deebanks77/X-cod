@@ -69,7 +69,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="mobile:block rectangle w-[100%] tablet:w-[550px] bigTablet:w-[600px] laptop:w-[650px] desktop:w-[700px] desktop:h-[500px] relative bg-white tablet:mt-[30px] bigTablet:mt-[60px] laptop:mt-[90px] desktop:mt-[120px]  rounded-md animate-scale px-[10px] pb-[10px]">
+      <div className="mobile:block rectangle w-[100%] h-[380px] tablet:w-[550px] tablet:h-[400px] bigTablet:w-[600px] bigTablet:h-[450px] laptop:w-[650px] laptop:h-[500px] desktop:w-[700px] desktop:h-[500px] relative bg-white tablet:mt-[30px] bigTablet:mt-[60px] laptop:mt-[90px] desktop:mt-[120px]  rounded-md animate-scale px-[10px] pb-[10px]">
         <div className="flex items-center gap-1 my-4 mx-4 cursor-pointer">
           <div className="mobile:w-1 mobile:h-1 laptop:w-2 laptop:h-2 desktop:w-3 desktop:h-3  rounded-[50%] border-gray-400 border-[2px]"></div>
           <div className="mobile:w-1 mobile:h-1 laptop:w-2 laptop:h-2 desktop:w-3 desktop:h-3  rounded-[50%] border-gray-400 border-[2px]"></div>
