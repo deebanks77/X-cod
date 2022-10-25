@@ -21,8 +21,8 @@ module.exports = {
         slideIn2: "slideIn2 2s ease-in-out 1",
         spin360: "spin360 7s linear infinite",
         slideIn: "slideIn 2s linear 1",
-        scale: "scale 1s ease-in-out 1",
-        opacity: "opacity 1s ease-in-out 1",
+        scale: "scale .5s ease-in-out 1",
+        opacity: "opacity .5s ease-in-out 1",
       },
       keyframes: {
         drop: {
@@ -55,7 +55,7 @@ module.exports = {
           "100%": { transform: "scale(1)", opacity: 1 },
         },
         opacity: {
-          "0%": { opacity: 0 },
+          "0%": { opacity: 0.1 },
           "100%": { opacity: 1 },
         },
       },
