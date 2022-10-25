@@ -92,12 +92,12 @@ function Feedback() {
           return (
             <>
               {index === activeIndex && (
-                <div className="basis-2/3">
+                <div className="basis-2/3 animate-scale">
                   <div className="midTablet:hidden">
                     <Info index={0} data={data} />
                   </div>
 
-                  <p className="font-[poppins] mobile:text-[14px] tablet:text-[16px] laptop:text-[19px] desktop:text-[22px] mx-auto animate-scale">
+                  <p className="font-[poppins] text-[14px] tablet:text-[16px] laptop:text-[19px] desktop:text-[22px] mx-auto">
                     {data.text}
                   </p>
                 </div>
