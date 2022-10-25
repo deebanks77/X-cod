@@ -47,7 +47,7 @@ function Product() {
   return (
     <div>
       <div className="top__section bg-gradient-to-r from-[#5390D9] to-[#4361EE] mobile:rounded-none desktop:rounded-t-[73px] mobile:p-[10px] laptop:p-[40px] desktop:p-[50px] mobile:mt-[20px] laptop:mt-[0]">
-        <div className="flex mobile:flex-row bigTablet:flex-row items-center mobile:justify-center bigTablet:justify-between mobile:flex-wrap mobile:gap-2 gap-40 max-w-[1200px] mx-auto">
+        <div className="flex mobile:flex-row bigTablet:flex-row items-center mobile:justify-around bigTablet:justify-between mobile:flex-wrap mobile:gap-2 gap-40 max-w-[1200px] mx-auto">
           {productTop.map((item, index) => (
             <ProductTop
               key={index}
@@ -59,7 +59,7 @@ function Product() {
         </div>
       </div>
 
-      <div className="flex items-center flex-wrap justify-center gap-[26px] mobile:mt-[60px] mt-[113px] p-10 desktop:p-20">
+      <div className="flex items-center flex-wrap justify-evenly gap-[26px] mobile:mt-[40px] tablet:mt-[60px] p-10 desktop:p-20">
         {productCenter.map((item, index) => (
           <ProductCenter
             key={index}
@@ -75,7 +75,7 @@ function Product() {
       <div className="mobile:mt-[100px] mt-[200px] w-full">
         <h3
           // data-aos="zoom-in-up"
-          className="text-center mobile:w-[400px] laptop:w-[575px] font-bold mobile:text-[28px] tablet:text-[32px] laptop:text-[38px] text-[48px] border-b-[#4361EE] mobile:border-b-[3px] laptop:border-b-[4.5px] border-b-[6px] mx-auto"
+          className="text-center w-[400px] laptop:w-[575px] font-bold text-[28px] tablet:text-[32px] laptop:text-[38px] border-b-[#4361EE] mobile:border-b-[3px] laptop:border-b-[4.5px] border-b-[6px] mx-auto"
         >
           Our <span className="text-[#4361EE]">Powerful</span> Sotfwares
         </h3>

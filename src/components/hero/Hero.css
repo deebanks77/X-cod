@@ -1,17 +1,1 @@
-.anime {
-  /* animation: animateLogo 3s;
-  animation-duration: 3s;
-  animation-iteration-count: calc(5s); */
-  /* animation shorthand */
-  /* animation: animation-name animation-duration animation-direction animation-iteration-count */
-  animation-iteration-count: initial;
-}
 
-/* @keyframes animateLogo {
-  0% {
-    transform: translateY(7px);
-  }
-  100% {
-    transform: translateY(-7px);
-  }
-} */

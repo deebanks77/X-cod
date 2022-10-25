@@ -11,16 +11,18 @@ module.exports = {
       midTablet: "760px",
       bigTablet: "820px",
       laptop: "1024px",
+      laptop2: "1200px",
       desktop: "1350px",
     },
     extend: {
       animation: {
         drop: "drop 3s linear 1",
         bouncer: "bouncer 2s ease-in-out 1",
-        slideIn2: "slideIn2 3s ease-in-out 1",
+        slideIn2: "slideIn2 2s ease-in-out 1",
         spin360: "spin360 7s linear infinite",
-        slideIn: "slideIn 3s linear 1",
-        scale: "scale 3s ease-in-out 1",
+        slideIn: "slideIn 2s linear 1",
+        scale: "scale 1s ease-in-out 1",
+        opacity: "opacity 1s ease-in-out 1",
       },
       keyframes: {
         drop: {
@@ -49,8 +51,12 @@ module.exports = {
           "100%": { transform: "translateX(0px)" },
         },
         scale: {
-          "0%": { transform: "scale(0.4)", opacity: 0 },
-          "100%": { transform: "scale(1) ", opacity: 1 },
+          "0%": { transform: "scale(0.9)", opacity: 0.1 },
+          "100%": { transform: "scale(1)", opacity: 1 },
+        },
+        opacity: {
+          "0%": { opacity: 0.1 },
+          "100%": { opacity: 1 },
         },
       },
     },

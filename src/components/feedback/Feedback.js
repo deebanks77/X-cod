@@ -28,7 +28,7 @@ function Feedback() {
       name: "Steven ",
       job: "Senior Dev",
       icon: images.icon4,
-      text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatibus qui, ratione perferendis delectus dolores eligendi nisi modi a, velit corrupti ducimus expedita atque. Aperiam, nam! Esse odio animi explicabo ",
+      text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatibus qui, ratione perferendis delectus dolores eligendi nisi modi a, velit corrupti ducimus expedita atque. Aperiam, nam! Esse odio animi explicabo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatibus qui, ratione perferendis",
     },
     {
       name: "Michael vivian",
@@ -52,7 +52,7 @@ function Feedback() {
       name: "Steven ",
       job: "Senior Dev",
       icon: images.icon4,
-      text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatibus qui, ratione perferendis delectus dolores eligendi nisi modi a, velit corrupti ducimus expedita atque. Aperiam, nam! Esse odio animi explicabo ",
+      text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatibus qui, ratione perferendis delectus dolores eligendi nisi modi a, velit corrupti ducimus expedita atque. Aperiam, nam! Esse odio animi explicabo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatibus qui, ratione perferendis",
     },
   ];
 
@@ -68,7 +68,7 @@ function Feedback() {
   }, [activeIndex]);
 
   return (
-    <div className="feedback font-poppins w-full max-h-[847px] bg-[#4CC9F0] bg-gradient-to-r border-2 border-transparent">
+    <div className="feedback font-poppins w-full max-h-[847px] bg-[#4CC9F0] bg-gradient-to-r border-2 border-transparent px-3 midTablet:px-5">
       <div>
         <h4 className=" font-bold mobile:text-[22px] tablet:text-[28px] laptop:text-[38px] desktop:text-[42px] mobile:mt-[40px] mt-[121px] mobile:mb-[4px] desktop:mb-[14px] text-center">
           Trusted by People Like You
@@ -88,18 +88,24 @@ function Feedback() {
           ))}
         </div>
 
-        <div className="basis-2/3">
-          <div className="midTablet:hidden">
-            <Info index={0} data={data[activeIndex]} />
-          </div>
+        {data.map((data, index) => {
+          return (
+            <>
+              {index === activeIndex && (
+                <div className="basis-2/3">
+                  <div className="midTablet:hidden">
+                    <Info index={0} data={data} />
+                  </div>
 
-          <p
-            data-aos="fade-left"
-            className="font-[poppins] mobile:text-[14px] tablet:text-[16px] laptop:text-[19px] desktop:text-[22px] mx-auto"
-          >
-            {data[activeIndex].text}
-          </p>
-        </div>
+                  <p className="font-[poppins] mobile:text-[14px] tablet:text-[16px] laptop:text-[19px] desktop:text-[22px] mx-auto animate-scale">
+                    {data.text}
+                  </p>
+                </div>
+              )}
+            </>
+          );
+        })}
+
         <Arrows
           prevSlide={() =>
             setActiveIndex(activeIndex < 1 ? len : activeIndex - 1)
