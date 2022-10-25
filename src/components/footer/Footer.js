@@ -9,7 +9,7 @@ import {
 
 function Footer() {
   return (
-    <div className="mt-[172px] flex items-center justify-center border-t border-t-[#909090] w-full p-10">
+    <div className="mt-[172px] flex items-center justify-center border-t border-t-[#909090] w-full p-5 tablet:p-10">
       <div className="w-full max-w-[1293px] flex flex-wrap gap-5  mobile:justify-between desktop:flex-nowrap desktop:justify-center  items-start mx-auto">
         <div className="basis-[30%]">
           <div className="w-[91px] h-[34px] mb-[16px]">
