@@ -68,7 +68,7 @@ function Feedback() {
   }, [activeIndex]);
 
   return (
-    <div className="feedback font-poppins w-full max-h-[847px] bg-[#4CC9F0] bg-gradient-to-r border-2 border-transparent px-3 midTablet:px-5">
+    <div className="feedback font-poppins h-[420px] midTablet:h-[500px] w-full max-h-[847px] bg-[#4CC9F0] bg-gradient-to-r border-2 border-transparent px-3 midTablet:px-5">
       <div>
         <h4 className=" font-bold mobile:text-[22px] tablet:text-[28px] laptop:text-[38px] desktop:text-[42px] mobile:mt-[40px] mt-[121px] mobile:mb-[4px] desktop:mb-[14px] text-center">
           Trusted by People Like You
