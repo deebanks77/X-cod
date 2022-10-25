@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import images from "../../asset/assets";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { ImCancelCircle } from "react-icons/im";
+import { VscClose } from "react-icons/vsc";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -47,7 +47,7 @@ function Navbar() {
           click ? "translate-x-[0]" : "translate-x-[100%]"
         } top-0 right-0 h-[80%] w-[50%] bg-gray-800 z-20 flex flex-col items-center justify-center gap-10 transition-all duration-500`}
       >
-        <ImCancelCircle
+        <VscClose
           onClick={handleClose}
           className="absolute text-white top-[5px] right-[5px]"
         />
