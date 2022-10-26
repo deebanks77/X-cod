@@ -6,7 +6,7 @@ function ProductBottom(props) {
   const { image, header } = props;
 
   return (
-    <div className="software flex  mobile:flex-col-reverse bigTablet:flex-row items-center justify-center laptop:justify-between mobile:gap-5  laptop:gap-[100px] mobile:w-full laptop:w-[1000px]  mx-auto mt-[40px] tablet:mt-[70px] desktop:mt-[60px] mb-[80px] laptop:mb-[156px]">
+    <div className="software flex  mobile:flex-col-reverse bigTablet:flex-row items-center justify-center laptop:justify-between mobile:gap-5  laptop:gap-[100px] mobile:w-full laptop:w-[1000px]  mx-auto mt-[40px] tablet:mt-[70px] desktop:mt-[60px] mb-[80px] laptop:mb-[156px] px-3">
       <div
         data-aos="fade-in"
         data-aos-easing="ease-in-sine"
@@ -21,7 +21,7 @@ function ProductBottom(props) {
 
       <div
         data-aos="fade-in"
-        className="flex flex-col items-start justify-center mt-[10px] bigTablet:w-[380px] laptop:w-[450px] laptop:h-[400px]  px-3 bigTablet:px-0"
+        className="flex flex-col items-start justify-center mt-[10px] bigTablet:w-[380px] laptop:w-[450px] laptop:h-[400px] bigTablet:px-0"
       >
         <h4 className="font-[Inter] font-bold text-[30px] laptop:text-[35px] desktop:text-[43px] mb-30px">
           {header}
