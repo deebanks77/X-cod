@@ -23,7 +23,7 @@ function ProductBottom(props) {
         data-aos="fade-in"
         className="flex flex-col items-start justify-center mt-[10px] bigTablet:w-[380px] laptop:w-[450px] laptop:h-[400px] bigTablet:px-0"
       >
-        <h4 className="font-[Inter] font-bold text-[30px] laptop:text-[35px] desktop:text-[43px] mb-30px">
+        <h4 className="font-[inter] font-bold text-[30px] laptop:text-[35px] desktop:text-[43px] mb-30px">
           {header}
         </h4>
         <p className="font-[inter] font-normal text-[18px] laptop:text-[20px] desktop:text-[24px] text-[#909090] mb-[30px] leading-[30px]">
