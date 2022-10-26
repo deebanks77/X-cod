@@ -41,7 +41,10 @@ function Navbar() {
         </div>
       </div>
 
-      <GiHamburgerMenu onClick={handleHamburger} className="hamburger" />
+      <GiHamburgerMenu
+        onClick={handleHamburger}
+        className="hamburger  cursor-pointer  w-[30px] h-[30px]"
+      />
       <div
         className={`nav mobile:fixed tablet:hidden ${
           click ? "translate-x-[0]" : "translate-x-[100%]"
@@ -49,7 +52,7 @@ function Navbar() {
       >
         <VscClose
           onClick={handleClose}
-          className="absolute text-white top-[5px] right-[5px]"
+          className="absolute  cursor-pointer text-white top-[10px] right-[10px] w-[20px] h-[20px]"
         />
         <ul className="flex flex-col text-white items-center gap-10 ">
           <li className="cursor-pointer hover:text-gray-300 ">Home</li>
