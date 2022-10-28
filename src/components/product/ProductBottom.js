@@ -6,23 +6,16 @@ function ProductBottom(props) {
   const { image, header } = props;
 
   return (
-    <div className="software flex  mobile:flex-col-reverse bigTablet:flex-row items-center justify-center laptop:justify-between mobile:gap-5  laptop:gap-[100px] mobile:w-full laptop:w-[1000px]  mx-auto mt-[40px] tablet:mt-[70px] desktop:mt-[60px] mb-[80px] laptop:mb-[156px] px-3">
-      <div
-        // data-aos="fade-in"
-        // data-aos-easing="ease-in-sine"
-        className="mobile:mt-[20px] px-4 bigTablet:px-0"
-      >
+    <div className="software flex  mobile:flex-col-reverse bigTablet:flex-row items-center justify-center laptop:justify-between mobile:gap-5  laptop:gap-[100px] mobile:w-full laptop:w-[1000px]  mx-auto mt-[40px] tablet:mt-[70px] desktop:mt-[60px] mb-[80px] laptop:mb-[156px] px-4">
+      <div className="mobile:mt-[20px] px-8 bigTablet:px-0">
         <img
           src={image}
           alt="/"
-          className="mx-auto bigTablet::w-[400px] bigTablet:h-[380px] laptop:w-[500px] laptop:h-[450px]  object-contain "
+          className="mx-auto bigTablet:w-[400px] bigTablet:h-[380px] laptop:w-[500px] laptop:h-[450px]  object-contain "
         />
       </div>
 
-      <div
-        // data-aos="fade-in"
-        className="flex flex-col items-start justify-center mt-[10px] bigTablet:w-[380px] laptop:w-[450px] laptop:h-[400px] bigTablet:px-0"
-      >
+      <div className="flex flex-col items-start justify-center mt-[10px] bigTablet:w-[380px] laptop:w-[450px] laptop:h-[400px]">
         <h4 className="font-[inter] font-bold text-[30px] laptop:text-[35px] desktop:text-[43px] mb-30px">
           {header}
         </h4>
@@ -49,6 +42,3 @@ function ProductBottom(props) {
 }
 
 export default ProductBottom;
-
-// desktop:w-[580px] desktop:h-[550px]
-// desktop:w-[580px] desktop:h-[450px]

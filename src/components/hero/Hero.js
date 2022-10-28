@@ -78,7 +78,7 @@ function Hero() {
 
         {imageSlider.map((slide, index) => {
           return (
-            <div>
+            <div className="px-[20px] tablet:px-0">
               {index === activeIndex && (
                 <img
                   src={slide}
