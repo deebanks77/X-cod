@@ -71,7 +71,7 @@ function Feedback() {
   return (
     <div className="feedback font-poppins h-[500px] midTablet:h-[500px] laptop:h-[600px] desktop:h-[700px] w-full max-h-[847px] bg-[#4CC9F0] bg-gradient-to-r border-2 border-transparent px-3 midTablet:px-5">
       <div>
-        <h4 className=" font-bold mobile:text-[22px] tablet:text-[28px] laptop:text-[38px] desktop:text-[42px] mobile:mt-[40px] mt-[121px] mobile:mb-[4px] desktop:mb-[14px] text-center">
+        <h4 className=" font-bold mobile:text-[22px] tablet:text-[28px] laptop:text-[38px] mobile:mt-[40px] mt-[121px] mobile:mb-[4px] desktop:mb-[14px] text-center">
           Trusted by People Like You
         </h4>
         <p className="text-center text-gray-800">
@@ -100,7 +100,7 @@ function Feedback() {
                     <Info2 index={0} data={data} />
                   </div>
 
-                  <p className="font-[poppins] text-[14px] tablet:text-[16px] bigTablet:text-[17px] laptop:text-[19px] desktop:text-[22px] text-center bigTablet:text-left mx-auto leading-[25px] laptop:leading-[30px] desktop:leading-[34px]">
+                  <p className="font-[poppins] text-[14px] tablet:text-[16px] text-gray-800 bigTablet:text-[17px] laptop:text-[19px] text-center bigTablet:text-left mx-auto leading-[30px] laptop:leading-[34px] ">
                     {data.text}
                   </p>
                 </div>

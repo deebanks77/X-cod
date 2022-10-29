@@ -6,20 +6,20 @@ function ProductBottom(props) {
   const { image, header } = props;
 
   return (
-    <div className="software flex  mobile:flex-col-reverse bigTablet:flex-row items-center justify-center laptop:justify-between mobile:gap-5  laptop:gap-[100px] mobile:w-full laptop:w-[1000px]  mx-auto mt-[40px] tablet:mt-[70px] desktop:mt-[60px] laptop:mb-[156px] px-4">
+    <div className="software flex  mobile:flex-col-reverse bigTablet:flex-row items-center justify-center laptop:justify-between mobile:gap-5 bigTablet:gap-[80px] mobile:w-full laptop:w-[1000px]  mx-auto mt-[40px] tablet:mt-[50px] px-4">
       <div className="mobile:mt-[20px] px-8 bigTablet:px-0">
         <img
           src={image}
           alt="/"
-          className="mx-auto bigTablet:w-[400px] bigTablet:h-[380px] laptop:w-[500px] laptop:h-[450px]  object-contain "
+          className="mx-auto w-[90%] bigTablet:w-[400px] bigTablet:h-[380px] laptop:w-[500px] laptop:h-[450px]  object-contain "
         />
       </div>
 
-      <div className="flex flex-col items-start justify-center mt-[10px] bigTablet:w-[380px] laptop:w-[450px] laptop:h-[400px]">
-        <h4 className="font-[inter] font-bold text-[30px] laptop:text-[35px] desktop:text-[43px] mb-30px">
+      <div className="flex flex-col items-start justify-center mt-[10px] bigTablet:w-[400px] laptop:w-[500px] laptop:h-[400px]">
+        <h4 className="font-[inter] font-bold text-[30px] laptop:text-[35px] mb-30px">
           {header}
         </h4>
-        <p className="font-[inter] font-normal text-[18px] laptop:text-[20px] desktop:text-[24px] text-[#909090] mb-[20px] tablet:mb-[30px] leading-[30px]">
+        <p className="font-[inter] font-normal text-[18px] laptop:text-[20px] text-[#909090] mb-[20px] tablet:mb-[30px] leading-[30px]">
           Never run out of graphics, videos and music assets to use while
           creating your videos. With ReelApps Libraries of stock free images,
           video clips and royalty free music, it has never been this easier.

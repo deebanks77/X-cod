@@ -7,17 +7,17 @@ function ProductBottom(props) {
     <div
       data-aos="zoom-in"
       data-aos-duration="800"
-      className={`min-w-[350px] tablet:w-[400px] desktop:w-[350px] min-h-[250px] bg-[#FFFFFF] p-[20px] py-[40px] rounded-[14px] relative`}
+      className={`w-[90%] tablet:w-[80%] laptop:w-[320px] laptop:h-[300px] laptop2:w-[350px]  bg-[#FFFFFF] p-[20px] rounded-[14px] relative`}
     >
       <img
         src={icon}
         alt="/"
         className="w-[25px] h-[25px] tablet:w-[35px] tablet:h-[30px] mb-[16px] object-contain"
       />
-      <div className="font-[Inter] font-bold mobile:text-[20px] tablet:text-[22px] mobile:mb-[14px] ">
+      <div className="font-[Inter] font-bold text-[20px]  mobile:mb-[14px] ">
         {title}
       </div>
-      <div className="font-[Inter] font-[400] text-[16px] tablet:text-[18px] leading-[23px] text-black/[0.35]">
+      <div className="font-[Inter] font-[400] text-[16px]  leading-[23px] text-black/[0.35]">
         {content}
       </div>
       <div
