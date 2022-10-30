@@ -16,7 +16,7 @@ function Navbar() {
   };
 
   return (
-    <div className="flex items-center justify-between pt-[31px] px-3  font-[poppins] max-w-[1200px] mx-auto ">
+    <div className="flex items-center justify-between pt-[31px] px-5 tablet:px-10 font-[poppins] max-w-[1200px] mx-auto ">
       <div className="flex items-center">
         <div className="w-[55px] h-[49px] ">
           <img
@@ -28,7 +28,7 @@ function Navbar() {
         <p className="text-black font-[700] font-[poppins] text-[28px]">COD</p>
       </div>
 
-      <div className="nav mobile:hidden tablet:block">
+      <div className="nav mobile:hidden midTablet:block">
         <div className="flex items-center gap-14">
           <ul className="flex items-center gap-10 ">
             <li className="cursor-pointer">Home</li>
@@ -43,10 +43,10 @@ function Navbar() {
 
       <GiHamburgerMenu
         onClick={handleHamburger}
-        className="hamburger  cursor-pointer  w-[30px] h-[30px]"
+        className="hamburger midTablet:hidden  cursor-pointer  w-[30px] h-[30px]"
       />
       <div
-        className={`nav mobile:fixed tablet:hidden ${
+        className={`nav mobile:fixed midTablet:hidden ${
           click ? "translate-x-[0]" : "translate-x-[100%]"
         } top-0 right-0 h-[80%] w-[50%] bg-gray-800 z-20 flex flex-col items-center justify-center gap-10 transition-all duration-500`}
       >

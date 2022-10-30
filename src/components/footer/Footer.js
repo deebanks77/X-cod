@@ -33,8 +33,8 @@ function Footer() {
         </div>
 
         <div className="flex justify-center gap-7 laptop2:gap-16">
-          <div className=" font-[inter] text-[#1D2132]">
-            <h4 className=" font-[600] text-[16px] tablet:text-[18px] laptop2:text-[23px] mb-[5px] tablet:mb-[16px] laptop2:mb-[26px] cursor-pointer hover:opacity-80 leading-[23px]">
+          <div className=" font-[inter] text-[#959595]">
+            <h4 className=" font-[600] text-[16px] tablet:text-[18px] laptop2:text-[23px] mb-[5px] tablet:mb-[16px] laptop2:mb-[26px] cursor-pointer hover:opacity-80 leading-[23px] text-[#1D2132]">
               Company
             </h4>
             <p className="font-[400] text-[14px] tablet:text-[15px] mb-[5px]  tablet:mb-[16px] laptop2:mb-[20px] cursor-pointer hover:opacity-80 leading-[26px]">
@@ -48,8 +48,8 @@ function Footer() {
             </p>
           </div>
 
-          <div className="font-[inter] text-[#1D2132]">
-            <h4 className="font-[600] text-[16px] tablet:text-[18px] laptop2:text-[23px] mobile:mb-[5px]  tablet:mb-[16px] laptop2:mb-[26px] cursor-pointer hover:opacity-80 leading-[23px]">
+          <div className="font-[inter] text-[#959595] ">
+            <h4 className="font-[600] text-[16px] tablet:text-[18px] laptop2:text-[23px] mobile:mb-[5px]  tablet:mb-[16px] laptop2:mb-[26px] cursor-pointer hover:opacity-80 leading-[23px] text-[#1D2132]">
               Product
             </h4>
             <p className="font-[400] text-[14px] tablet:text-[15px]  mb-[5px]  tablet:mb-[16px] laptop2:mb-[20px] cursor-pointer hover:opacity-80 leading-[26px]">
@@ -84,7 +84,7 @@ function Footer() {
             </button>
           </form>
 
-          <p className="max-w-[300px] laptop:max-w-[366px] text-[#959595] text-[inter] font-[400] font-[17px] leading-[31px] -tracking-[0.02em]">
+          <p className="max-w-[300px] laptop:max-w-[366px] text-[#959595] font-[inter] font-[400] font-[17px] leading-[31px] -tracking-[0.02em]">
             * Will send you weekly updates for your better finance management.
           </p>
         </div>
