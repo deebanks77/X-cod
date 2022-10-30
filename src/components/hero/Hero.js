@@ -44,8 +44,8 @@ function Hero() {
         </p>
       </div>
 
-      <div className="circle hidden laptop2:block laptop:absolute top-[100px] laptop2:left-[50px] desktop:left-[100px] w-[400px] h-[400px] border-[#858585] laptop:border-[#858585]  border-[2px] border-opacity-10 rounded-[50%]">
-        <div className="imageNote absolute w-[150px] h-[150px] top-[116px] laptop2:left-[30px] laptop2:top-[290px] desktop:left-[12px]">
+      <div className="circle hidden laptop2:block laptop:absolute top-[100px] laptop2:left-[80px] desktop:left-[100px] w-[400px] h-[400px] border-[#858585] laptop:border-[#858585]  border-[2px] border-opacity-10 rounded-[50%]">
+        <div className="imageNote absolute w-[150px] h-[150px] top-[116px] laptop2:left-[12px] laptop2:top-[290px]">
           <img
             src={images.image}
             alt="/"
@@ -58,7 +58,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="circle absolute top-[270px] desktop:top-[290px] laptop2:right-[50px] desktop:right-[95px] w-[400px] h-[400px] bg-[#DDEDFF] rounded-[50%] mobile:hidden laptop2:block">
+      <div className="circle absolute top-[270px] laptop2:right-[50px] desktop:right-[95px] w-[400px] h-[400px] bg-[#DDEDFF] rounded-[50%] mobile:hidden laptop2:block">
         <div className="noteFireIcon absolute w-[159px] h-[201px] top-[30px] left-[240px] ">
           <Note />
           <img
@@ -69,7 +69,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="block rectangle w-[100%] h-[280px] mobile2:h-[350px]  tablet:w-[550px] tablet:h-[400px] bigTablet:w-[600px] bigTablet:h-[450px] laptop:w-[700px] laptop:h-[500px] relative bg-white tablet:mt-[30px] bigTablet:mt-[60px] laptop:mt-[90px] desktop:mt-[120px]  rounded-md animate-scale px-[10px] pb-[10px]">
+      <div className="block rectangle w-[100%] h-[280px] mobile2:h-[350px]  tablet:w-[550px] tablet:h-[400px] bigTablet:w-[600px] bigTablet:h-[450px] laptop:w-[700px] laptop:h-[500px] relative bg-white tablet:mt-[30px] bigTablet:mt-[60px] laptop:mt-[90px]  rounded-md animate-scale px-[10px] pb-[10px]">
         <div className="flex items-center gap-1 my-4 mx-4 cursor-pointer">
           <div className="w-1 h-1 laptop:w-2 laptop:h-2 desktop:w-3 desktop:h-3  rounded-[50%] border-gray-400 border-[2px]"></div>
           <div className="w-1 h-1 laptop:w-2 laptop:h-2 desktop:w-3 desktop:h-3  rounded-[50%] border-gray-400 border-[2px]"></div>
