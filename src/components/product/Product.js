@@ -36,12 +36,14 @@ function Product() {
   ];
 
   const productBottom = [
-    { image: images.Screen1, header: "AIWA" },
-    { image: images.Screen2, header: "QR VERSE" },
-    { image: images.Screen1, header: "AIWA" },
-    { image: images.Screen2, header: "QR VERSE" },
-    { image: images.Screen1, header: "AIWA" },
-    { image: images.Screen2, header: "QR VERSE" },
+    { image: images.Screen1, header: "Stori" },
+    { image: images.Screen2, header: "IntroVERSE" },
+    { image: images.Screen1, header: "AudioSuite" },
+    {
+      image: images.Screen2,
+      header: "QR VERSE",
+      url: "https://qr-verse-deebanks77.vercel.app/",
+    },
   ];
 
   return (
@@ -81,11 +83,7 @@ function Product() {
         </h3>
         <div className="softwares mx-auto">
           {productBottom.map((item, index) => (
-            <ProductBottom
-              key={index}
-              image={item.image}
-              header={item.header}
-            />
+            <ProductBottom key={index} {...item} />
           ))}
         </div>
       </div>

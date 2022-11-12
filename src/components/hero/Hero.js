@@ -44,7 +44,7 @@ function Hero() {
         </p>
       </div>
 
-      <div className="circle hidden laptop2:block laptop:absolute top-[100px] laptop2:left-[80px] desktop:left-[100px] w-[400px] h-[400px] border-[#858585] laptop:border-[#858585]  border-[2px] border-opacity-10 rounded-[50%]">
+      <div className="circle hidden laptop2:block laptop:absolute top-[100px] laptop2:left-[80px] desktop:left-[100px] w-[400px] h-[400px] border-[#858585] laptop:border-[#dbdbdb]  border-[2px] rounded-[50%]">
         <div className="imageNote absolute w-[150px] h-[150px] top-[116px] laptop2:left-[12px] laptop2:top-[290px]">
           <img
             src={images.image}

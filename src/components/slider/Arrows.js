@@ -3,7 +3,9 @@ import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 function Arrows({ prevSlide, nextSlide, testimonial }) {
   return (
-    <div className="arrows">
+    <div
+      className={`arrows ${testimonial ? "block bigTablet:hidden" : "hidden"}`}
+    >
       <BsChevronLeft
         className={`prev absolute tablet:w-[20px] tablet:h-[20px] bigTablet:w-[25px] bigTablet:h-[25px] text-black  ${
           testimonial

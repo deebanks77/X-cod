@@ -3,7 +3,7 @@ import "./Product.css";
 import images from "../../asset/assets";
 
 function ProductBottom(props) {
-  const { image, header } = props;
+  const { image, header, url } = props;
 
   return (
     <div className="software flex  mobile:flex-col-reverse bigTablet:flex-row items-center justify-center laptop:justify-between mobile:gap-5 bigTablet:gap-[80px] mobile:w-full laptop:w-[1000px]  mx-auto mt-[40px] tablet:mt-[50px] px-4">
@@ -26,7 +26,14 @@ function ProductBottom(props) {
         </p>
         <div className="flex items-center gap-2">
           <button className="bg-gradient-to-r from-sky-500 to-indigo-500 px-[15px] py-[10px]  laptop:px-[22px] laptop:py-[16px] text-white rounded-[7px] cursor-pointer">
-            View Software
+            <a
+              href={`${url ? url : "#"}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              View Software
+            </a>
           </button>
           <div className="flex items-center justify-center w-[40px] h-[40px] laptop:w-[57px] laptop:h-[57px] bg-[#4361EE] rounded-[50%]">
             <img
